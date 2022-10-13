@@ -1,6 +1,10 @@
+/*--------------------------------------------------*/
+/*-----------------------Header---------------------*/
+/*--------------------------------------------------*/
+
 header{
     margin: auto;
-    width: 65%;
+    width: 66%;
 }
 
 header .row{
@@ -9,10 +13,34 @@ header .row{
     justify-content: space-between;
 }
 
+/*--------------------------------------------------*/
+/*-----------------------Footer---------------------*/
+/*--------------------------------------------------*/
+
+footer{
+    width: 66%;
+    margin: auto;
+}
+
+footer .row{
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    column-gap:20px;
+}
+
+.col-footer-3 .wrap-col .row{
+    display: flex;
+    flex-direction: column;
+}
+
+/*--------------------------------------------------*/
+/*-----------------------INDEX----------------------*/
+/*--------------------------------------------------*/
+
 /*--------------Contenedor grid - sección 2-----------------*/
 
 #container{
-    width: 65%;
+    width: 66%;
     margin: auto;
 }
 
@@ -66,20 +94,19 @@ header .row{
     width: 50%;
 }
 
-/*-------------------------footer-------------------------*/
+/*--------------------------------------------------*/
+/*-----------------------Blog-----------------------*/
+/*--------------------------------------------------*/
 
-footer{
-    width: 65%;
-    margin: auto;
-}
-
-footer .row{
+.archive-post .flex-box{
     display: grid;
-    grid-template-columns: 31% 31% 31%;
-    column-gap:20px;
+    grid-template-columns: 50% 50%;
 }
 
-.col-footer-3 .wrap-col .row{
-    display: flex;
-    flex-direction: column;
+.archive-post .box-text{
+    display:grid;
+}
+
+.archive-post .box-image{
+    width: 100%;
 }
