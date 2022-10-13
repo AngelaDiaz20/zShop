@@ -41,7 +41,7 @@ footer .row{
 
 #container{
     width: 66%;
-    margin: auto;
+    margin:auto;
 }
 
 .box-2 .wrap-box{
@@ -109,4 +109,20 @@ footer .row{
 
 .archive-post .box-image{
     width: 100%;
+}
+
+
+/*--------------------------------------------------*/
+/*-----------------------Contact--------------------*/
+/*--------------------------------------------------*/
+
+#contact_form .row-input{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    justify-content: space-between;
+}
+
+
+.space{
+    padding-top: 1px;
 }
